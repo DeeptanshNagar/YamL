@@ -1,0 +1,54 @@
+"apple": "I am a red fruit"
+"1": "This is Deeptansh's roll no"
+---
+# adding a key to wrap the list
+  - apple
+  - mango
+  - banana
+  - Apple       # YAML is case-sensitive
+---
+cities:
+  - new delhi
+  - mumbai
+  - gujarat
+---
+cities: [new delhi, mumbai]
+---
+{mango: "yellow fruit", age: 56}
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# "apple": "I am a red fruit"
+# "1": "This is Deeptansh's roll no"
+# ---
+# fruits:               # Wrapped the list under a key
+#   - apple
+#   - mango
+#   - banana
+#   - Apple             # YAML is case-sensitive
+# ---
+# cities:
+#   - new delhi
+#   - mumbai
+#   - gujarat
+# ...
