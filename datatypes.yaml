@@ -4,10 +4,12 @@ myself: Kunal Kushwaha
 fruit: "Apple"
 job: 'swe'
 
-bio: 
-hey my name is Deeptansh Nagar.
-I am from Rajasthan.
+# wrong way
+# bio: 
+# hey my name is Deeptansh Nagar.
+# I am from Rajasthan.
 
+# right way
 #write a single line in multiple lines
 message: > 
   this will 
@@ -15,7 +17,7 @@ message: >
   treated as one single line.
 
 # same as 
-message: !!str this will all be in one single line
+alt_message: !!str this will all be in one single line
 
 number: 5473
 marks: 98.76
@@ -27,7 +29,8 @@ zero: !!int 0
 positiveNum: !!int 45
 negativeNum: !!int -45
 binaryNum: !!int 0b11001
-octalNum: !!int 06574
+octalNum: !!int 06574      # Kunal Kushwaha
+# octalNum: !!int 0o6574   # Chatgpt # Correct YAML 1.2 octal format
 hexa: !!int 0x45
 commaValue: !!int +540_000 # 540,000
 exponential numbers: 6.023E56
