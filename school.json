@@ -1,0 +1,46 @@
+{
+    "School": [
+        {
+            "name": "DPS",
+            "principal": "Someone",
+            "Students": [
+                {
+                    "rno": 12,
+                    "name": "Kunal Kushwaha",
+                    "marks": 98
+                },
+                {
+                    "rno": 21,
+                    "name": "Arya Thool",
+                    "marks": 90
+                },
+                {
+                    "rno": 22,
+                    "name": "Shanks",
+                    "marks": 77
+                }
+            ]
+        },
+        {
+            "name": "AECS4",
+            "principal": "Reddy",
+            "Students": [
+                {
+                    "rno": 34,
+                    "name": "Aditya",
+                    "marks": 32
+                },
+                {
+                    "rno": 21,
+                    "name": "Arjun",
+                    "marks": 49
+                },
+                {
+                    "rno": 22,
+                    "name": "Veer",
+                    "marks": 23
+                }
+            ]
+        }
+    ]
+}
