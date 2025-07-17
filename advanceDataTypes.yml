@@ -81,6 +81,20 @@ people: !!omap
       age: 50
       height: 343
 
-# reusing some properties
-likings:
+# reusing some properties using anchors
+likings: &likes
   fav fruit: mango
+  dislikes: grapes
+
+person1:
+  name: Kunal Kushwaha
+  <<: *likes
+  
+person2:
+  name: Rahul Kushwaha
+  <<: *likes
+  dislikes: berries # overriding
+
+person3:
+  name: Varnika
+  <<: *likes
